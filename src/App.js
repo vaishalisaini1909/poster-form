@@ -32,6 +32,13 @@ function App() {
               className="p-2 border border-gray-300 rounded"
               onChange={(e) => setForm({ ...form, image: e.target.value })}
             />
+            <button
+              type="button"
+              className="bg-blue-500 text-white p-2 rounded hover:bg-blue-600 transition duration-200"
+              onClick={() => alert("Poster Created!")}
+            >
+              Create Poster
+            </button>
           </form>
         </div>
 
